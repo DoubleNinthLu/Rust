@@ -17,3 +17,19 @@
 
 * done
 * rust的基本语法
+
+### Chapter04
+
+* done
+* rust中关键概念
+  * 所有权
+  * Copy trait
+  * Drop trait
+  * Move 语义
+  * 切片语义
+  * 引用语义
+
+### Chapter05
+
+* done
+* rust中使用struct创建自定义模板
