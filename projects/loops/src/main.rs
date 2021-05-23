@@ -15,7 +15,6 @@ fn main() {
 
     println!();
 
-
     for ele in (1..4).rev() {
         print!("{}", ele);
     }

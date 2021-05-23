@@ -33,3 +33,13 @@
 
 * done
 * rust中使用struct创建自定义模板
+
+### Chapter-6
+
+* done
+* rust中使用enum创建自定义枚举
+  * 枚举可以带有值
+  * 枚举变体可以带有不同类型的值
+  * Option<T>
+  * match 匹配模式穷尽
+  * if let 语法糖

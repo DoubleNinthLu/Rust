@@ -17,19 +17,18 @@ impl Rectangle {
     }
 
     fn can_hold(&self, rectangle: &Rectangle) -> bool {
-        self.width > rectangle.width && 
-        self.height > rectangle.height
+        self.width > rectangle.width && self.height > rectangle.height
     }
 }
 
 fn main() {
-    let rect1 = Rectangle{
+    let rect1 = Rectangle {
         width: 30,
         height: 50,
     };
 
-    let rect2 = Rectangle{
-        width: 10, 
+    let rect2 = Rectangle {
+        width: 10,
         height: 40,
     };
 
