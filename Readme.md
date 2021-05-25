@@ -34,7 +34,7 @@
 * done
 * rust中使用struct创建自定义模板
 
-### Chapter-6
+### Chapter06
 
 * done
 * rust中使用enum创建自定义枚举
@@ -43,3 +43,18 @@
   * Option<T>
   * match 匹配模式穷尽
   * if let 语法糖
+
+### Chapter07
+
+* done
+* rust中如何组织管理项目
+  * 包：package
+    * 单元包：crate
+      * 库单元包：lib.rs
+      * 二进制单元包
+  * 包的访问
+  * 访问权限：pub
+  * 引入包：use
+  * 包的分化
+
+
