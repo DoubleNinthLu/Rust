@@ -57,4 +57,15 @@
   * 引入包：use
   * 包的分化
 
+### Chapter08
 
+* done
+* rust 中常用集合
+  * Vec
+    * 可以用枚举变量来简介存储不同类型，但必须能够完全枚举
+  * String
+    * 有三个视角：字节(bytes)、字符(chars)、字符簇(未内置方法)
+    * format!
+  * HashMap(存在与std::collections)
+    * entry 用于校验key是否存在
+  
