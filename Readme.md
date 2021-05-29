@@ -69,3 +69,17 @@
   * HashMap(存在与std::collections)
     * entry 用于校验key是否存在
   
+### Chapter09
+
+* done
+* rust 中的错误处理
+  * 可恢复错误
+    * 返回 Result<T,E>
+  * 不可恢复错误
+    * 使用 panic! 宏输出
+  * ?
+  * unwrap
+  * expect
+  * match 处理错误
+
+
