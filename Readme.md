@@ -79,7 +79,7 @@
     * 使用 panic! 宏输出
   * ?
   * unwrap
-  * expect
+  * expect~
   * match 处理错误
 
 ### Chapter10
@@ -97,3 +97,20 @@
 * rust 中的测试
   * 单元测试
   * 继承测试
+
+### Chapter12
+
+* done
+* 使用 rust 完成一个minigrep命令行工具
+
+### Chapter13
+
+* done
+* rust 中的闭包和迭代器
+  * 闭包的三个trait
+    * FnOnce
+    * FnMut
+    * Fn
+  * 惰性迭代器
+    * 性能比较
+  
