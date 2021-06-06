@@ -15,17 +15,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c334668-55d1-4f17-ad6c-487bd10bae27" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gui_project/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bmi_simulated/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bmi_simulated/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bmi_simulated/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/Cargo.toml" afterDir="false" />
-    </list>
+    <list default="true" id="7c334668-55d1-4f17-ad6c-487bd10bae27" name="默认变更列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622961277057</updated>
       <workItem from="1622961278456" duration="7423000" />
+      <workItem from="1622985685346" duration="600000" />
     </task>
     <servers />
   </component>

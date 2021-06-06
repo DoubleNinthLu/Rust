@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "main",
+    "k8_calculate_average",
+    "k4_duplicate_encode",
+    "k7_accum",
+]

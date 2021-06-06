@@ -3,6 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
@@ -12,10 +15,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e31d2ee0-827d-432c-b52a-fca4ca927f0f" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/../hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    <list default="true" id="bfb29d4a-cabb-4c77-b2c8-df018699ff7d" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/k8_calculate_average/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projects/hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projects/hello/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projects/test_program/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projects/test_program/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projects/test_program/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../projects/test_program/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +29,20 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="wfqx2yc2" />
+    <option name="directoryName" value="e4l1eb5b" />
   </component>
-  <component name="ProjectId" id="1t4go3HG8gxti39MJNqWB81KgkF" />
+  <component name="ProjectId" id="1tZyrt6a0q60XCiLl6NOWSfbIZQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,14 +62,53 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionD:/Code/Rust/test_project/k7_accum/src/lib.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionD:/Code/Rust/test_project/k8_calculate_average/src/main.rs" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cargo.Run">
+    <configuration name="Run k8_calculate_average" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package k8_calculate_average --bin k8_calculate_average" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
+      <option name="command" value="run" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cargo.Run" />
+      <item itemvalue="Cargo.Run k8_calculate_average" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run k8_calculate_average" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="runRustfmtOnSave" value="true" />
@@ -74,15 +124,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="e31d2ee0-827d-432c-b52a-fca4ca927f0f" name="默认变更列表" comment="" />
-      <created>1622033946753</created>
+      <changelist id="bfb29d4a-cabb-4c77-b2c8-df018699ff7d" name="默认变更列表" comment="" />
+      <created>1622991107314</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622033946753</updated>
-      <workItem from="1622033947867" duration="1345000" />
-      <workItem from="1622113308484" duration="1846000" />
-      <workItem from="1622283156834" duration="20000" />
-      <workItem from="1622986593915" duration="4471000" />
+      <updated>1622991107314</updated>
+      <workItem from="1622991108434" duration="1899000" />
     </task>
     <servers />
   </component>
