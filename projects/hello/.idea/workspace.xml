@@ -3,6 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
@@ -12,10 +15,16 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfec3bf0-1661-440e-88e1-6fbb09924f3e" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+    <list default="true" id="7c334668-55d1-4f17-ad6c-487bd10bae27" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../blog/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gui_project/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bmi_simulated/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bmi_simulated/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bmi_simulated/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,19 +34,28 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="flrx5kgy" />
+    <option name="directoryName" value="nhppufcy" />
   </component>
-  <component name="ProjectId" id="1tIwln9WYuEMLNcJNBSP9ga7I7b" />
+  <component name="ProjectId" id="1tZ0P6303HMfwZRSj4c3ihqo5F1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -50,11 +68,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Rust\projects\hello\src\bin" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run --package bmi_simulated --bin bmi_simulated" />
+      <option name="command" value="run --package hello" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
@@ -82,13 +105,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="bfec3bf0-1661-440e-88e1-6fbb09924f3e" name="默认变更列表" comment="" />
-      <created>1622470064121</created>
+      <changelist id="7c334668-55d1-4f17-ad6c-487bd10bae27" name="默认变更列表" comment="" />
+      <created>1622961277057</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622470064121</updated>
-      <workItem from="1622470065736" duration="1920000" />
-      <workItem from="1622542127850" duration="3368000" />
+      <updated>1622961277057</updated>
+      <workItem from="1622961278456" duration="7423000" />
     </task>
     <servers />
   </component>

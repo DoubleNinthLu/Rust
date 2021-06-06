@@ -1,16 +1,9 @@
 [package]
-name = "bmi_simulated"
+name = "adv_properties"
 version = "0.1.0"
 authors = ["alluc <lucy_lc@outlook.com>"]
 edition = "2018"
-description="test"
-license="MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-guessing_game = "0.1.2"
-
-[profile.dev]
-opt-level = 0
-

@@ -12,10 +12,13 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfec3bf0-1661-440e-88e1-6fbb09924f3e" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+    <list default="true" id="97b0c7a5-8f44-48de-903c-43b8046eaf42" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../blog/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gui_project/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bmi_simulated/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bmi_simulated/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bmi_simulated/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="flrx5kgy" />
+    <option name="directoryName" value="bew8b74x" />
   </component>
-  <component name="ProjectId" id="1tIwln9WYuEMLNcJNBSP9ga7I7b" />
+  <component name="ProjectId" id="1tWQ1PwbHPTygqM6QX5nD7TH3Sl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,13 +51,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run --package bmi_simulated --bin bmi_simulated" />
+      <option name="command" value="run --package adv_properties --bin adv_properties" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
@@ -65,6 +67,24 @@
       <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -82,13 +102,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="bfec3bf0-1661-440e-88e1-6fbb09924f3e" name="默认变更列表" comment="" />
-      <created>1622470064121</created>
+      <changelist id="97b0c7a5-8f44-48de-903c-43b8046eaf42" name="默认变更列表" comment="" />
+      <created>1622882149985</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622470064121</updated>
-      <workItem from="1622470065736" duration="1920000" />
-      <workItem from="1622542127850" duration="3368000" />
+      <updated>1622882149985</updated>
+      <workItem from="1622882151360" duration="2936000" />
     </task>
     <servers />
   </component>

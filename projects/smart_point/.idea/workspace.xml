@@ -12,10 +12,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfec3bf0-1661-440e-88e1-6fbb09924f3e" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+    <list default="true" id="4cc4b135-ca80-43d8-8616-fb86e77f3253" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/../bmi_simulated/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bmi_simulated/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bmi_simulated/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../bmi_simulated/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +29,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="flrx5kgy" />
+    <option name="directoryName" value="liw3taet" />
   </component>
-  <component name="ProjectId" id="1tIwln9WYuEMLNcJNBSP9ga7I7b" />
+  <component name="ProjectId" id="1tLWMFqtTMWNSG231jyV7ymXsJU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,7 +54,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run --package bmi_simulated --bin bmi_simulated" />
+      <option name="command" value="run --package smart_point --bin smart_point" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
@@ -82,13 +82,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="bfec3bf0-1661-440e-88e1-6fbb09924f3e" name="默认变更列表" comment="" />
-      <created>1622470064121</created>
+      <changelist id="4cc4b135-ca80-43d8-8616-fb86e77f3253" name="默认变更列表" comment="" />
+      <created>1622548799562</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622470064121</updated>
-      <workItem from="1622470065736" duration="1920000" />
-      <workItem from="1622542127850" duration="3368000" />
+      <updated>1622548799562</updated>
+      <workItem from="1622548800938" duration="3062000" />
+      <workItem from="1622637913166" duration="647000" />
     </task>
     <servers />
   </component>
