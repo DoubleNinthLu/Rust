@@ -32,5 +32,5 @@ fn first_non_consecutive_origin(arr: &Vec<i32>) -> Option<i32> {
 
 
 fn first_non_consecutive(arr: &Vec<i32>) -> Option<i32> {
-    arr.windows(2).find(|t| t[0] + 1 != t[1]).map(|t| t[2])
+    arr.windows(2).find(|t| t[0] + 1 != t[1]).map(|t| t[1])
 }
