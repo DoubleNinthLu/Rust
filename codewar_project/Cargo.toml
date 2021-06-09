@@ -5,4 +5,10 @@ members = [
     "k8_calculate_average",
     "k4_duplicate_encode",
     "k7_accum",
+    "k8_calculate_bmi",
+    "k8_century_from_year",
+    "k6_your_order_please",
+    "k7_growth_of_a_population",
+    "k6_write_number_in_expanded_form",
+    "k8_find_the_first_non-consecutive_number"
 ]
