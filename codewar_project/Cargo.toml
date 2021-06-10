@@ -10,5 +10,8 @@ members = [
     "k6_your_order_please",
     "k7_growth_of_a_population",
     "k6_write_number_in_expanded_form",
-    "k8_find_the_first_non-consecutive_number"
+    "k8_find_the_first_non-consecutive_number",
+    "k6_break_camel_case",
+    "k6_persistent_bugger",
+    "k7_moves_in_squared_strings_1"
 ]
