@@ -13,5 +13,7 @@ members = [
     "k8_find_the_first_non-consecutive_number",
     "k6_break_camel_case",
     "k6_persistent_bugger",
-    "k7_moves_in_squared_strings_1"
+    "k7_moves_in_squared_strings_1",
+    "k7_parts_of_a_list",
+    "k7_thinkful_string_drills_repeater"
 ]
