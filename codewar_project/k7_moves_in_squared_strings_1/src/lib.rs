@@ -36,7 +36,7 @@ fn hor_mirror(s: String) -> String {
 fn vert_mirror(s: String) -> String {
     // your code
     s.split("\n")
-        .map(|v|->String {v.chars().rev().collect()})
+        .map(|v| -> String { v.chars().rev().collect() })
         .collect::<Vec<_>>()
         .join("\n")
 }

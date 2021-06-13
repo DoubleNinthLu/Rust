@@ -14,8 +14,13 @@ mod tests {
 fn expanded_form(n: u64) -> String {
     let temp = n.to_string();
     let len = temp.len();
-    temp.chars().enumerate().map(|(i,c)| match c {
-        '1'..='9' => format!("{}{}", c, "0".repeat(len - i - 1)),
-        _ => "".to_string(),
-    }).filter(|str_null| str_null != "").collect::<Vec<_>>().join(" + ")
+    temp.chars()
+        .enumerate()
+        .map(|(i, c)| match c {
+            '1'..='9' => format!("{}{}", c, "0".repeat(len - i - 1)),
+            _ => "".to_string(),
+        })
+        .filter(|str_null| str_null != "")
+        .collect::<Vec<_>>()
+        .join(" + ")
 }

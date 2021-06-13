@@ -30,7 +30,7 @@ fn part_list(arr: Vec<&str>) -> String {
         res.push_str(&format!(
             "({}, {})",
             arr[..=i].join(" "),
-            arr[(i+1)..].join(" ")
+            arr[(i + 1)..].join(" ")
         ))
     }
     res

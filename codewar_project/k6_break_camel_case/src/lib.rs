@@ -12,8 +12,10 @@ mod tests {
 }
 
 fn solution(s: &str) -> String {
-    s.chars().map(|c| match c {
-        'A'..='Z' => format!(" {}", c),
-        _ => c.to_string(),
-    }).collect()
+    s.chars()
+        .map(|c| match c {
+            'A'..='Z' => format!(" {}", c),
+            _ => c.to_string(),
+        })
+        .collect()
 }

@@ -34,7 +34,7 @@ fn nb_year(p0: i32, percent: f64, aug: i32, p: i32) -> i32 {
     let mut count = 0;
     while (new_p0 as i32) < p {
         new_p0 = new_p0 * (1.0 + new_percent) + aug as f64;
-        new_p0 = (new_p0 as i32) as f64; 
+        new_p0 = (new_p0 as i32) as f64;
         count += 1;
     }
     count

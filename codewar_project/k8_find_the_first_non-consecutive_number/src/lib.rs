@@ -21,15 +21,13 @@ fn first_non_consecutive_origin(arr: &Vec<i32>) -> Option<i32> {
         .into_iter()
         .enumerate()
         .map(|(idx, v)| (idx, (v - idx as i32)))
-        .filter(|(_, v)| {
-            *v != dis
-        })
-        .next() {
-            Some(v) => Some(v.1 + v.0 as i32),
-            None => None,
-        }
+        .filter(|(_, v)| *v != dis)
+        .next()
+    {
+        Some(v) => Some(v.1 + v.0 as i32),
+        None => None,
+    }
 }
-
 
 fn first_non_consecutive(arr: &Vec<i32>) -> Option<i32> {
     arr.windows(2).find(|t| t[0] + 1 != t[1]).map(|t| t[1])

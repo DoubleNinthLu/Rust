@@ -11,7 +11,6 @@ mod tests {
     }
 }
 
-
 fn repeater(string: &str, n: u32) -> String {
     let mut res = String::new();
     for _ in 0..n {

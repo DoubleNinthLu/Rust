@@ -15,5 +15,7 @@ members = [
     "k6_persistent_bugger",
     "k7_moves_in_squared_strings_1",
     "k7_parts_of_a_list",
-    "k7_thinkful_string_drills_repeater"
+    "k7_thinkful_string_drills_repeater",
+    "k7_sort_numbers",
+    "k5_common_denominators"
 ]
