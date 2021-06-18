@@ -13,7 +13,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6f346af-125d-467c-80aa-d0216fcf0768" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mastering_rust_v2/Chapter03/doctest_demo/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mastering_rust_v2/Chapter03/doctest_demo/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mastering_rust_v2/Chapter03/integration_test/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mastering_rust_v2/Chapter03/integration_test/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mastering_rust_v2/Chapter03/integration_test/tests/common.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mastering_rust_v2/Chapter03/integration_test/tests/sum.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust_base_info.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../Rust_base_info.xmind" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mastering_rust_v2/Chapter03/doctest_demo/Cargo.toml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623065379173</updated>
       <workItem from="1623065380617" duration="3170000" />
+      <workItem from="1624026289269" duration="24000" />
     </task>
     <servers />
   </component>
