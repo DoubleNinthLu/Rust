@@ -18,5 +18,7 @@ members = [
     "k7_thinkful_string_drills_repeater",
     "k7_sort_numbers",
     "k5_common_denominators",
-    "k6_pi_approximation"
+    "k6_pi_approximation",
+    "k6_round_by_0_5_steps",
+    "k6_prize_draw"
 ]
